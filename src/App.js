@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import data from './product-data';
 import './App.css';
 import FilterableProductTable from './FilterableProductTable';
+import Calculator from './calculator'
+import TemperatureInput from './temperatureInput'
 
 class App extends Component {
 	constructor(props) {
@@ -9,6 +11,12 @@ class App extends Component {
 	}
 
 	render() {
+
+		return (
+			<Calculator />
+		)
+
+	
 		// console.log(data.data[0].category);
 		return (
 			<div className="App">
